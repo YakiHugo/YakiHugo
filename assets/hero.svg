@@ -22,7 +22,7 @@
 
     <line x1="0" y1="188" x2="635" y2="188" stroke="#111111" stroke-width="3"/>
     <text x="0" y="225" fill="#111111" font-size="17" font-weight="600" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace">RUNTIME  ·  MEMORY  ·  COLLABORATION  ·  WORKBENCH</text>
-    <text x="0" y="260" fill="#111111" fill-opacity=".66" font-size="15" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace">FROM FIRST PRINCIPLES  /  ONE MODULE AT A TIME</text>
+    <text x="0" y="260" fill="#111111" fill-opacity=".66" font-size="15" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace">SHANGHAI, CN  /  FROM FIRST PRINCIPLES</text>
   </g>
 
   <rect x="813" y="48" width="330" height="280" rx="12" fill="#111111"/>

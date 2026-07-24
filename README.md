@@ -30,9 +30,25 @@ and collaboration you can actually inspect.
     </td>
     <td width="34%" valign="top">
       <p><strong>Now implemented</strong></p>
-      <p>Session runtime<br/>Mate profiles<br/>Tool + permission flow<br/>OpenAI / Anthropic adapters<br/>Inspectable GUI feed</p>
+      <p>Session runtime<br/>SQLite fact log<br/>Mate profiles<br/>Tool + permission flow<br/>HTTP/SSE workbench</p>
       <p><strong>Next</strong></p>
       <p>Rooms · Tasks · Memory<br/>Multi-mate collaboration</p>
+    </td>
+  </tr>
+</table>
+
+## Previous work · TermCanvas
+
+<table>
+  <tr>
+    <td width="38%" valign="top">
+      <h3>▦ <a href="https://github.com/blueberrycongee/termcanvas">TermCanvas</a></h3>
+      <p><strong>An infinite-canvas desktop app for visually managing terminals.</strong></p>
+      <p><code>Electron</code> <code>TypeScript</code> <code>Canvas UX</code></p>
+    </td>
+    <td width="62%" valign="top">
+      <p>I contributed across the product rather than one isolated feature: canvas and terminal interaction, in-terminal search, WebGL recovery, macOS lifecycle and differential updates, file-tree work, Windows CLI support, and multi-agent workflow experiments.</p>
+      <p>This is the earlier project where I did the most substantial product and engineering work.</p>
     </td>
   </tr>
 </table>
@@ -59,34 +75,31 @@ and collaboration you can actually inspect.
   </tr>
 </table>
 
-<details>
-  <summary><strong>Earlier product exploration</strong></summary>
-  <br/>
-  <a href="https://github.com/YakiHugo/FilmLab"><strong>FilmLab</strong></a> — an
-  image-first computational visual workbench built with TypeScript, Canvas, and
-  WebGPU. It remains public, but is no longer my primary focus.
-</details>
-
-## Builder's radar
+## What I optimize for
 
 ```text
-AGENT RUNTIMES          ━━━━━━━━━━━━━━━━━━━  turns · tools · recovery
-PERSISTENT MATES        ━━━━━━━━━━━━━━━━━    identity · memory · provenance
-COLLABORATION           ━━━━━━━━━━━━━━━      rooms · tasks · deliveries
-PRODUCT BOUNDARIES      ━━━━━━━━━━━━━━━━━    observable · local-first · honest
+DURABLE TRUTH           ━━━━━━━━━━━━━━━━━━━  facts over tidy fiction
+SYSTEM BOUNDARIES       ━━━━━━━━━━━━━━━━━    Mate ≠ model · Room ≠ Task
+RECOVERY                ━━━━━━━━━━━━━━━      idempotency · interruption · repair
+BOUNDED AUTONOMY        ━━━━━━━━━━━━━━━━━    permissions · context · wakeups
 ```
+
+<sub>I prefer narrow interfaces, small reviewable changes, integration-style
+tests, and abstractions that earn their place through real callers.</sub>
 
 ## Working set
 
 <p>
-  <img src="https://img.shields.io/badge/TypeScript-111111?style=flat-square&logo=typescript&logoColor=F2E9D8" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/TypeScript_6-111111?style=flat-square&logo=typescript&logoColor=F2E9D8" alt="TypeScript 6" />
   <img src="https://img.shields.io/badge/Node.js_24-111111?style=flat-square&logo=nodedotjs&logoColor=F2E9D8" alt="Node.js 24" />
+  <img src="https://img.shields.io/badge/SQLite-node%3Asqlite-111111?style=flat-square&logo=sqlite&logoColor=F2E9D8" alt="SQLite via node:sqlite" />
+  <img src="https://img.shields.io/badge/HTTP_%2B_SSE-native-111111?style=flat-square&logoColor=F2E9D8" alt="Native HTTP and SSE" />
   <img src="https://img.shields.io/badge/Vite-111111?style=flat-square&logo=vite&logoColor=F2E9D8" alt="Vite" />
   <img src="https://img.shields.io/badge/Vitest-111111?style=flat-square&logo=vitest&logoColor=F2E9D8" alt="Vitest" />
-  <img src="https://img.shields.io/badge/OpenAI-111111?style=flat-square&logo=openai&logoColor=F2E9D8" alt="OpenAI" />
-  <img src="https://img.shields.io/badge/Anthropic-111111?style=flat-square&logo=anthropic&logoColor=F2E9D8" alt="Anthropic" />
+  <img src="https://img.shields.io/badge/Biome-111111?style=flat-square&logo=biome&logoColor=F2E9D8" alt="Biome" />
+  <img src="https://img.shields.io/badge/pnpm_11-111111?style=flat-square&logo=pnpm&logoColor=F2E9D8" alt="pnpm 11" />
 </p>
 
 <p>
-  <sub>Reach me by email or add <strong>EXIAR427</strong> on WeChat. If you're also taking coding agents apart to understand how they work, we'll have plenty to talk about.</sub>
+  <sub>Shanghai, China · Reach me by email or add <strong>EXIAR427</strong> on WeChat. If you're also taking coding agents apart to understand how they work, we'll have plenty to talk about.</sub>
 </p>
